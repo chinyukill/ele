@@ -1,0 +1,37 @@
+1、adminList(管理员集合)
+    _id
+    adminName:管理员账号
+    adminPassWord:管理员密码
+    addTime:注册时间
+    lastLoginTime:最后一次登陆时间
+2、adminLogList (管理员日志)
+    _id
+    adminId:管理员id
+    type:操作类型,
+        1:登录
+        2:修改密码
+        //后续继续添加
+    detail:操作细节
+    addTime:操作时间
+3、shopTypeList(店铺类型)
+    _id
+    shopType:店铺类型
+    shopTypePic:店铺类型图片
+    orderNum:排序
+    addTime:添加时间
+    lastUpTime:最后一次编辑时间
+4、shopList
+    _id
+    shopName:店铺名
+    shopPic:店铺图片
+    shopTypeId:店铺类别
+    addTime:添加时间
+    lastUpTime:最后编辑时间
+
+
+
+
+
+
+
+
